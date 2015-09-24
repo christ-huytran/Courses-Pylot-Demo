@@ -14,7 +14,7 @@ sudo pip install virtualenv
 
 Clone the project
 ```
-git clone -b stable https://github.com/Ketul-Patel/Pylot.git
+git clone https://github.com/christ-huytran/Courses-Pylot-Demo.git
 ```
 
 cd into the project and source the setup file
@@ -22,6 +22,8 @@ cd into the project and source the setup file
 cd Pylot
 . setup
 ```
+
+Start MAMP, open MySQLWorkBench and generate the required schema with the script in courses.sql. You can view the ERD by looking at courses.mwb.
 
 Now you can start your development server like so:
 ```
